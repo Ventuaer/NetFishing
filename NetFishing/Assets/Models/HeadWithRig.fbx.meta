@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: a6cb604ae6df1ee4fa244a973abc2e35
+timeCreated: 1732477946
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm.l
+    100002: Arm.r
+    100004: Armature
+    100006: Back
+    100008: butt
+    100010: Camera
+    100012: Hand.l
+    100014: Hand.l_end
+    100016: Hand.r
+    100018: Hand.r_end
+    100020: Head
+    100022: Head_end
+    100024: //RootNode
+    100026: leg.l
+    100028: leg.l_end
+    100030: leg.r
+    100032: leg.r_end
+    100034: Light
+    100036: Neck
+    100038: Roundcube
+    100040: Shoulder.l
+    100042: Shoulder.r
+    400000: Arm.l
+    400002: Arm.r
+    400004: Armature
+    400006: Back
+    400008: butt
+    400010: Camera
+    400012: Hand.l
+    400014: Hand.l_end
+    400016: Hand.r
+    400018: Hand.r_end
+    400020: Head
+    400022: Head_end
+    400024: //RootNode
+    400026: leg.l
+    400028: leg.l_end
+    400030: leg.r
+    400032: leg.r_end
+    400034: Light
+    400036: Neck
+    400038: Roundcube
+    400040: Shoulder.l
+    400042: Shoulder.r
+    4300000: Roundcube
+    7400000: Armature|0TPose
+    7400002: Armature|Idle
+    7400004: Armature|Idle (1)
+    7400006: Armature|Walk
+    7400008: Armature|Run
+    7400010: Armature|Walk
+    9500000: //RootNode
+    13700000: Roundcube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/butt
+        weight: 1
+      - path: Armature/butt/Back
+        weight: 1
+      - path: Armature/butt/Back/Neck
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l/Hand.l_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r/Hand.r_end
+        weight: 1
+      - path: Armature/butt/leg.l
+        weight: 1
+      - path: Armature/butt/leg.l/leg.l_end
+        weight: 1
+      - path: Armature/butt/leg.r
+        weight: 1
+      - path: Armature/butt/leg.r/leg.r_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Roundcube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/butt
+        weight: 1
+      - path: Armature/butt/Back
+        weight: 1
+      - path: Armature/butt/Back/Neck
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l/Hand.l_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r/Hand.r_end
+        weight: 1
+      - path: Armature/butt/leg.l
+        weight: 1
+      - path: Armature/butt/leg.l/leg.l_end
+        weight: 1
+      - path: Armature/butt/leg.r
+        weight: 1
+      - path: Armature/butt/leg.r/leg.r_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Roundcube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/butt
+        weight: 1
+      - path: Armature/butt/Back
+        weight: 1
+      - path: Armature/butt/Back/Neck
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l/Hand.l_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r/Hand.r_end
+        weight: 1
+      - path: Armature/butt/leg.l
+        weight: 1
+      - path: Armature/butt/leg.l/leg.l_end
+        weight: 1
+      - path: Armature/butt/leg.r
+        weight: 1
+      - path: Armature/butt/leg.r/leg.r_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Roundcube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|0TPose
+      takeName: Armature|0TPose
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/butt
+        weight: 1
+      - path: Armature/butt/Back
+        weight: 1
+      - path: Armature/butt/Back/Neck
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head
+        weight: 1
+      - path: Armature/butt/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.l/Arm.l/Hand.l/Hand.l_end
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r
+        weight: 1
+      - path: Armature/butt/Back/Neck/Shoulder.r/Arm.r/Hand.r/Hand.r_end
+        weight: 1
+      - path: Armature/butt/leg.l
+        weight: 1
+      - path: Armature/butt/leg.l/leg.l_end
+        weight: 1
+      - path: Armature/butt/leg.r
+        weight: 1
+      - path: Armature/butt/leg.r/leg.r_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Roundcube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
