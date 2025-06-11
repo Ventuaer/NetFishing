@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8AE88E99-8DE3-8B29-3B13-C232B5D99415}</ProjectGuid>
+    <ProjectGuid>{1B923055-B2C9-31CF-EB23-7DEF2D3F8D27}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,12 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BlinkingAnimation.cs" />
      <Compile Include="Assets\CanvasOrientation.cs" />
      <Compile Include="Assets\ChatLogManager.cs" />
      <Compile Include="Assets\DynamicTail.cs" />
      <Compile Include="Assets\KeyboardExample\KeyboardScript.cs" />
      <Compile Include="Assets\NewCameraControls.cs" />
+     <Compile Include="Assets\RadiusCulling.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DynamicBone.cs" />
      <Compile Include="Assets\Scripts\DynamicBoneCollider.cs" />
@@ -59,15 +59,14 @@
      <Compile Include="Assets\Scripts\DynamicBonePlaneCollider.cs" />
      <Compile Include="Assets\Scripts\PlayerControls.cs" />
      <Compile Include="Assets\Scripts\ShadowFollower.cs" />
+     <Compile Include="Assets\Scripts\TalkingScript.cs" />
+     <Compile Include="Assets\Scripts\WaterEdge.cs" />
      <Compile Include="Assets\SkyboxExample\Tilt.cs" />
      <Compile Include="Assets\SkyboxExample\Tumble.cs" />
-     <Compile Include="Assets\TalkingScript.cs" />
      <Compile Include="Assets\TestingScript.cs" />
-     <Compile Include="Assets\WaterEdge.cs" />
+     <None Include="Assets\WaterShader.shader" />
      <None Include="Assets\SkyboxExample\3DS_Skybox.shader" />
-     <None Include="Assets\Simple Color.shader" />
-     <None Include="Assets\Texture.shader" />
-     <None Include="Assets\AddThreeTextures.shader" />
+     <None Include="Assets\FogShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
